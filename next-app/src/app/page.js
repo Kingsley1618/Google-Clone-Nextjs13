@@ -2,6 +2,7 @@ import ButtonLayout from "@/components/ButtonLayout";
 import Footer from "@/components/Footer";
 import GoogleHeader from "@/components/GoogleHeader";
 import SearchInput from "@/components/SearchInput";
+import Google from "@/assets/Images/googlelogo.png"
 import Image from "next/image";
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
 <GoogleHeader />
 </div>
 <div className="w-full flex-[1] px-4">
-<Image width="280" height="100" src = "/googlelogo.png" className = "block mx-auto mt-1">
+<Image width={280} height={100} src = {Google} className = "block mx-auto mt-1">
 
 </Image>
 
